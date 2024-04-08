@@ -9,7 +9,8 @@ function App() {
   const [mockCardData, setMockCardData] = useState(null);
 
   // note: I am using this useEffect as a
-  // "simulated" API call to represent a delay in fetching data
+  // "simulated" API call to represent a delay in
+  // fetching data, testing the LoadSpinner component
   useEffect(() => {
     setTimeout(() => {
       setMockCardData(mockDataset.cards);

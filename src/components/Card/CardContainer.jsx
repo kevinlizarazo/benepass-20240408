@@ -8,6 +8,7 @@ import { Obfuscator } from "../ui/Obfuscator";
 import { CardCVC } from "./CardCVC";
 import { CardExpDate } from "./CardExpDate";
 import { CardDescription } from "./CardDescription";
+import { CardZip } from "./CardZip";
 
 export function CardContainer({ data }) {
   const {
@@ -62,7 +63,7 @@ export function CardContainer({ data }) {
 
           
           <div className="flex justify-between items-end">
-            <div className="text-lg">ZIP {zipCode}</div>
+            <CardZip zipCode={zipCode} />
             <CardNetwork network={network} />
           </div>
 
