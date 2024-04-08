@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "name": "John Doe",
+  "cards": [
+    {
+      "mockId": "1",
+      "network": "Visa",
+      "cardNumber": "1232 2223 4432 1732",
+      "cardHolder": "John Doea",
+      "expirationDate": "8/28",
+      "securityCode": "345",
+      "zipCode": "66062",
+      "cardProduct": "flex",
+      "cardTag": "Virtual",
+      "design": "type-3"
+    }
+  ]
+}
